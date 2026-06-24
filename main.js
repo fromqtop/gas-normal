@@ -4,5 +4,5 @@ function myFunction() {
   const sheet = ss.getSheetByName("data");
   const value = sheet.getRange("A1").getValue();
   console.log(value);
-  console.log(value);
+  console.log("hello");
 }
